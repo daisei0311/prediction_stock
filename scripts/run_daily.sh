@@ -59,8 +59,8 @@ echo "----------------------------------------" >> "${LOG_FILE}"
 echo "Starting Git Push Automation..." >> "${LOG_FILE}"
 
 # Gitユーザー設定 (必要に応じて)
-git config user.name "Daily Runner" || true
-git config user.email "runner@example.com" || true
+git config user.name "daisei0311" || true
+git config user.email "d.k-guitar@outlook.jp" || true
 
 # 変更をステージング
 git add . >> "${LOG_FILE}" 2>&1
