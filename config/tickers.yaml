@@ -1,0 +1,227 @@
+# Ticker Configuration
+# This file contains all ticker symbols with their Japanese and English company names
+
+core30:
+  7203.T:
+    name: "トヨタ自動車"
+    name_en: "Toyota Motor Corporation"
+  6758.T:
+    name: "ソニーグループ"
+    name_en: "Sony Group Corporation"
+  8306.T:
+    name: "三菱UFJフィナンシャル・グループ"
+    name_en: "Mitsubishi UFJ Financial Group"
+  6861.T:
+    name: "キーエンス"
+    name_en: "Keyence Corporation"
+  9984.T:
+    name: "ソフトバンクグループ"
+    name_en: "SoftBank Group"
+  6501.T:
+    name: "日立製作所"
+    name_en: "Hitachi Ltd."
+  8316.T:
+    name: "三井住友フィナンシャルグループ"
+    name_en: "Sumitomo Mitsui Financial Group"
+  9432.T:
+    name: "日本電信電話"
+    name_en: "Nippon Telegraph and Telephone"
+  8031.T:
+    name: "三井物産"
+    name_en: "Mitsui & Co."
+  4063.T:
+    name: "信越化学工業"
+    name_en: "Shin-Etsu Chemical"
+  8058.T:
+    name: "三菱商事"
+    name_en: "Mitsubishi Corporation"
+  6098.T:
+    name: "リクルートホールディングス"
+    name_en: "Recruit Holdings"
+  7974.T:
+    name: "任天堂"
+    name_en: "Nintendo"
+  8766.T:
+    name: "東京海上ホールディングス"
+    name_en: "Tokio Marine Holdings"
+  9983.T:
+    name: "ファーストリテイリング"
+    name_en: "Fast Retailing"
+  7267.T:
+    name: "本田技研工業"
+    name_en: "Honda Motor"
+  8411.T:
+    name: "みずほフィナンシャルグループ"
+    name_en: "Mizuho Financial Group"
+  4502.T:
+    name: "武田薬品工業"
+    name_en: "Takeda Pharmaceutical"
+  7741.T:
+    name: "HOYA"
+    name_en: "HOYA Corporation"
+  6902.T:
+    name: "デンソー"
+    name_en: "Denso Corporation"
+  2914.T:
+    name: "日本たばこ産業"
+    name_en: "Japan Tobacco"
+  4568.T:
+    name: "第一三共"
+    name_en: "Daiichi Sankyo"
+  6981.T:
+    name: "村田製作所"
+    name_en: "Murata Manufacturing"
+  4519.T:
+    name: "中外製薬"
+    name_en: "Chugai Pharmaceutical"
+  6367.T:
+    name: "ダイキン工業"
+    name_en: "Daikin Industries"
+  3382.T:
+    name: "セブン＆アイ・ホールディングス"
+    name_en: "Seven & i Holdings"
+  7751.T:
+    name: "キヤノン"
+    name_en: "Canon Inc."
+  8802.T:
+    name: "三菱地所"
+    name_en: "Mitsubishi Estate"
+  6273.T:
+    name: "SMC"
+    name_en: "SMC Corporation"
+  4661.T:
+    name: "オリエンタルランド"
+    name_en: "Oriental Land"
+
+watchlist:
+  9101.T:
+    name: "日本郵船"
+    name_en: "Nippon Yusen"
+  5401.T:
+    name: "日本製鉄"
+    name_en: "Nippon Steel"
+  1366.T:
+    name: "iFreeETF 日経225ダブルインバース"
+    name_en: "iFreeETF Nikkei 225 Double Inverse"
+  218A.T:
+    name: "Liberaware"
+    name_en: "Liberaware Co., Ltd."
+  278A.T:
+    name: "Terra Drone"
+    name_en: "Terra Drone Corporation"
+  285A.T:
+    name: "キオクシアホールディングス"
+    name_en: "Kioxia Holdings Corporation"
+  4582.T:
+    name: "シンバイオ製薬"
+    name_en: "SymBio Pharmaceuticals"
+  6330.T:
+    name: "東洋エンジニアリング"
+    name_en: "Toyo Engineering"
+  7011.T:
+    name: "三菱重工業"
+    name_en: "Mitsubishi Heavy Industries"
+  8729.T:
+    name: "ソニーフィナンシャルホールディングス"
+    name_en: "Sony Financial Holdings"
+  9501.T:
+    name: "東京電力ホールディングス"
+    name_en: "Tokyo Electric Power"
+  9509.T:
+    name: "北海道電力"
+    name_en: "Hokkaido Electric Power"
+  8002.T:
+    name: "丸紅"
+    name_en: "Marubeni Corporation"
+  1605.T:
+    name: "国際石油開発帝石"
+    name_en: "INPEX Corporation"
+  6701.T:
+    name: "日本電気"
+    name_en: "NEC Corporation"
+  4004.T:
+    name: "昭和電工"
+    name_en: "Showa Denko"
+  1942.T:
+    name: "関電工"
+    name_en: "Kandenko"
+  8035.T:
+    name: "東京エレクトロン"
+    name_en: "Tokyo Electron"
+  6971.T:
+    name: "京セラ"
+    name_en: "Kyocera Corporation"
+  6857.T:
+    name: "アドバンテスト"
+    name_en: "Advantest Corporation"
+  6920.T:
+    name: "レーザーテック"
+    name_en: "Lasertec Corporation"
+  6526.T:
+    name: "ソシオネクスト"
+    name_en: "Socionext Inc."
+  4005.T:
+    name: "住友化学"
+    name_en: "Sumitomo Chemical"
+  4452.T:
+    name: "花王"
+    name_en: "Kao Corporation"
+  7012.T:
+    name: "川崎重工業"
+    name_en: "Kawasaki Heavy Industries"
+  8707.T:
+    name: "岩谷産業"
+    name_en: "Iwatani Corporation"
+  6315.T:
+    name: "TOWA"
+    name_en: "TOWA Corporation"
+
+  6471.T:
+    name: "日本精工"
+    name_en: "NSK Ltd."
+  1802.T:
+    name: "大林組"
+    name_en: "Obayashi Corporation"
+  9449.T:
+    name: "GMOインターネット"
+    name_en: "GMO Internet"
+
+indices:
+  ^N225:
+    name: "日経平均株価"
+    name_en: "Nikkei 225"
+  USDJPY=X:
+    name: "ドル円"
+    name_en: "USD/JPY"
+  ^TNX:
+    name: "米国10年債利回り"
+    name_en: "US 10-Year Treasury Yield"
+  ^GSPC:
+    name: "S&P500"
+    name_en: "S&P 500"
+  ^VIX:
+    name: "恐怖指数"
+    name_en: "VIX"
+
+sectors:
+  1615.T:
+    name: "銀行業"
+    name_en: "Banks"
+  1622.T:
+    name: "自動車・輸送用機器"
+    name_en: "Automobiles"
+  1625.T:
+    name: "電気・精密"
+    name_en: "Electric/Precision"
+  1621.T:
+    name: "医薬品"
+    name_en: "Pharmaceuticals"
+  1629.T:
+    name: "商社・卸売"
+    name_en: "Trading/Wholesale"
+  1623.T:
+    name: "鉄鋼・素材"
+    name_en: "Steel/Materials"
+  1626.T:
+    name: "通信・サービス"
+    name_en: "Communications/Services"

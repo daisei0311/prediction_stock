@@ -1,0 +1,15 @@
+# Configuration file for stock prediction system
+
+youtube_api_key: AIzaSyAbIENgBNerOefimwWCju-mEMQuNW4bQV0
+
+youtube_channel_id: 
+  1: "@SHO1112"
+
+deepseek_api_key: sk-b116f25427314519900789971f848028
+
+database:
+  host: "100.89.124.117"
+  port: 5432
+  user: "user"
+  password: "password"
+  dbname: "stock_db"
