@@ -65,8 +65,15 @@ git config user.email "d.k-guitar@outlook.jp" || true
 # 変更をステージング
 git add . >> "${LOG_FILE}" 2>&1
 
+# 変更ファイルのリストを取得
+CHANGES=$(git status --short)
+
 # コミット (変更がない場合はエラーになるが、パイプラインを止めない)
-git commit -m "Daily update: ${DATE}" >> "${LOG_FILE}" 2>&1 || echo "No changes to commit" >> "${LOG_FILE}"
+if [ -n "$CHANGES" ]; then
+    git commit -m "Daily update: ${DATE}" -m "Changed files:" -m "$CHANGES" >> "${LOG_FILE}" 2>&1
+else
+    echo "No changes to commit" >> "${LOG_FILE}"
+fi
 
 # リモートへプッシュ
 if git push origin main >> "${LOG_FILE}" 2>&1; then
