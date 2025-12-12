@@ -8,8 +8,8 @@ youtube_channel_id:
 deepseek_api_key: sk-b116f25427314519900789971f848028
 
 database:
-  host: "100.89.124.117"
+  host: "127.0.0.1"
   port: 5432
-  user: "user"
+  user: "postgres"
   password: "password"
   dbname: "stock_db"

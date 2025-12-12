@@ -50,6 +50,7 @@ try:
     else:
         df_forecast = pd.DataFrame()
         for f in Path(f"{base_dir}/data/output").glob("forecast_*.csv"):
+            print(f.name)
             df = pd.read_csv(f)
             df.insert(0, "date", f.name.split("_")[-1][:-4])
             df_forecast = pd.concat([df_forecast, df], ignore_index=True)
@@ -63,7 +64,7 @@ try:
     else:
         db_utils.upsert_dataframe_to_postgresql_multi_pk(
             df_forecast,
-            'public',
+            "public",
             "forecast_rank",
             ["date", "code"],
             conn_params=connection_config
