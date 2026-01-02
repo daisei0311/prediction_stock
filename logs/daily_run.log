@@ -31127,3 +31127,742 @@ Finished forecast_to_db.py successfully.
 === Daily Run Completed at 2026-01-01 18:14:11 ===
 ----------------------------------------
 Starting Git Push Automation...
+[main 413a3df] Daily update: 2026-01-01 18:00:01
+ 6 files changed, 744 insertions(+), 1 deletion(-)
+To https://github.com/daisei0311/prediction_stock.git
+   1a70a3b..413a3df  main -> main
+Git push successful.
+----------------------------------------
+=== Daily Run Started at 2026-01-02 18:00:01 ===
+Starting collect_data.py...
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+=== データ収集を開始します ===
+フォルダを確認しました: /home/dk/getyoutubedata_poc/data/raw
+
+--- 新規追加銘柄の検出 ---
+新規追加された銘柄はありません。既存銘柄の差分更新を行います。
+
+
+--- 個別銘柄 (Core30 + MyList) の差分更新 ---
+[9101.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/9101.T.csv
+[8411.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/8411.T.csv
+[2914.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/2914.T.csv
+[8306.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/8306.T.csv
+[6330.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/6330.T.csv
+[9449.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/9449.T.csv
+[6954.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/6954.T.csv
+[285A.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/285A.T.csv
+[9509.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/9509.T.csv
+[9432.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/9432.T.csv
+[5401.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/5401.T.csv
+[7751.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/7751.T.csv
+[4004.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/4004.T.csv
+[7974.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/7974.T.csv
+[6861.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/6861.T.csv
+[6501.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/6501.T.csv
+[4661.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/4661.T.csv
+[8802.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/8802.T.csv
+[8031.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/8031.T.csv
+[7267.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/7267.T.csv
+[6902.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/6902.T.csv
+[8316.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/8316.T.csv
+[7741.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/7741.T.csv
+[8002.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/8002.T.csv
+[1942.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/1942.T.csv
+[6526.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/6526.T.csv
+[6920.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/6920.T.csv
+[8035.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/8035.T.csv
+[8766.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/8766.T.csv
+[6758.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/6758.T.csv
+[7011.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/7011.T.csv
+[6701.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/6701.T.csv
+[9984.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/9984.T.csv
+[1366.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/1366.T.csv
+[8058.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/8058.T.csv
+[6971.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/6971.T.csv
+[8707.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/8707.T.csv
+[1605.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/1605.T.csv
+[6857.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/6857.T.csv
+[6367.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/6367.T.csv
+[6098.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/6098.T.csv
+[6273.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/6273.T.csv
+[9501.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/9501.T.csv
+[4452.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/4452.T.csv
+[4582.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/4582.T.csv
+[7012.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/7012.T.csv
+[4568.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/4568.T.csv
+[278A.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/278A.T.csv
+[4063.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/4063.T.csv
+[3382.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/3382.T.csv
+[7203.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/7203.T.csv
+[9983.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/9983.T.csv
+[218A.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/218A.T.csv
+[4005.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/4005.T.csv
+[8729.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/8729.T.csv
+[6315.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/6315.T.csv
+[6981.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/6981.T.csv
+[6471.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/6471.T.csv
+[1802.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/1802.T.csv
+[6506.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/6506.T.csv
+[4519.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/4519.T.csv
+[4502.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/4502.T.csv
+既存銘柄の更新完了: 62件
+
+--- 市場指数・マクロ指標の差分更新 ---
+[^N225] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/Nikkei225.csv
+[USDJPY=X] 差分更新中... (最終日: 2026-01-01)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/USDJPY.csv
+[^TNX] 差分更新中... (最終日: 2025-12-31)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/US10Y.csv/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+/home/dk/getyoutubedata_poc/src/collect_data.py:209: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df_new = yf.download(ticker, start=next_day, end=end, progress=False)
+
+[^GSPC] 差分更新中... (最終日: 2025-12-31)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/SP500.csv
+[^VIX] 差分更新中... (最終日: 2025-12-31)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/VIX.csv
+
+--- セクターETFの差分更新 ---
+[1615.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/Sector_Bank.csv
+[1622.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/Sector_Auto.csv
+[1625.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/Sector_Electric.csv
+[1621.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/Sector_Pharma.csv
+[1629.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/Sector_Wholesale.csv
+[1623.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/Sector_Steel.csv
+[1626.T] 差分更新中... (最終日: 2025-12-30)
+1日分追加更新: /home/dk/getyoutubedata_poc/data/raw/Sector_Comm.csv
+
+--- 会社名マッピングのエクスポート ---
+会社名マッピングを保存しました: /home/dk/getyoutubedata_poc/data/raw/company_names.json
+  - 総銘柄数: 74件
+
+市場営業時間外のため、JSON保存をスキップします。
+
+=== すべての処理が完了しました ===
+Finished collect_data.py successfully.
+Starting collect_sentiment.py...
+=== YouTubeセンチメント分析開始 ===
+
+チャンネルID取得成功: UCK9Pl6bbWqMC_x7IDca2tIg
+アップロードプレイリストID取得成功: UUK9Pl6bbWqMC_x7IDca2tIg
+既存データを確認: 最新日付 2026-01-01
+動画取得開始 (2026-01-01 以降)
+ページ 1 を取得中...
+カットオフ日付到達: 2025-12-31
+ページ 2 を取得中...
+カットオフ日付到達: 2025-11-26
+ページ 3 を取得中...
+カットオフ日付到達: 2025-10-21
+ページ 4 を取得中...
+カットオフ日付到達: 2025-09-17
+ページ 5 を取得中...
+カットオフ日付到達: 2025-08-12
+ページ 6 を取得中...
+カットオフ日付到達: 2025-07-07
+ページ 7 を取得中...
+カットオフ日付到達: 2025-06-03
+ページ 8 を取得中...
+カットオフ日付到達: 2025-04-29
+ページ 9 を取得中...
+カットオフ日付到達: 2025-03-25
+ページ 10 を取得中...
+カットオフ日付到達: 2025-02-14
+ページ 11 を取得中...
+カットオフ日付到達: 2025-01-08
+ページ 12 を取得中...
+カットオフ日付到達: 2024-12-03
+ページ 13 を取得中...
+カットオフ日付到達: 2024-10-29
+ページ 14 を取得中...
+カットオフ日付到達: 2024-09-23
+ページ 15 を取得中...
+カットオフ日付到達: 2024-08-20
+ページ 16 を取得中...
+カットオフ日付到達: 2024-07-18
+ページ 17 を取得中...
+カットオフ日付到達: 2024-06-10
+ページ 18 を取得中...
+カットオフ日付到達: 2024-05-01
+ページ 19 を取得中...
+カットオフ日付到達: 2024-03-28
+ページ 20 を取得中...
+カットオフ日付到達: 2024-02-19
+ページ 21 を取得中...
+カットオフ日付到達: 2024-01-10
+ページ 22 を取得中...
+カットオフ日付到達: 2023-12-04
+ページ 23 を取得中...
+カットオフ日付到達: 2023-10-30
+ページ 24 を取得中...
+カットオフ日付到達: 2023-09-23
+ページ 25 を取得中...
+カットオフ日付到達: 2023-08-17
+ページ 26 を取得中...
+カットオフ日付到達: 2023-07-11
+ページ 27 を取得中...
+カットオフ日付到達: 2023-06-05
+ページ 28 を取得中...
+カットオフ日付到達: 2023-04-25
+ページ 29 を取得中...
+カットオフ日付到達: 2023-03-15
+ページ 30 を取得中...
+カットオフ日付到達: 2023-02-07
+ページ 31 を取得中...
+カットオフ日付到達: 2022-12-30
+ページ 32 を取得中...
+カットオフ日付到達: 2022-11-26
+ページ 33 を取得中...
+カットオフ日付到達: 2022-10-24
+ページ 34 を取得中...
+カットオフ日付到達: 2022-09-20
+ページ 35 を取得中...
+カットオフ日付到達: 2022-08-18
+ページ 36 を取得中...
+カットオフ日付到達: 2022-07-15
+ページ 37 を取得中...
+カットオフ日付到達: 2022-06-14
+ページ 38 を取得中...
+カットオフ日付到達: 2022-05-14
+ページ 39 を取得中...
+カットオフ日付到達: 2022-04-15
+ページ 40 を取得中...
+カットオフ日付到達: 2022-03-18
+ページ 41 を取得中...
+カットオフ日付到達: 2022-02-24
+ページ 42 を取得中...
+カットオフ日付到達: 2022-02-03
+ページ 43 を取得中...
+カットオフ日付到達: 2022-01-17
+ページ 44 を取得中...
+カットオフ日付到達: 2021-12-27
+ページ 45 を取得中...
+カットオフ日付到達: 2021-12-09
+ページ 46 を取得中...
+カットオフ日付到達: 2021-11-26
+ページ 47 を取得中...
+カットオフ日付到達: 2021-10-28
+ページ 48 を取得中...
+カットオフ日付到達: 2021-10-01
+ページ 49 を取得中...
+カットオフ日付到達: 2021-09-04
+ページ 50 を取得中...
+カットオフ日付到達: 2021-08-10
+ページ 51 を取得中...
+カットオフ日付到達: 2021-07-19
+ページ 52 を取得中...
+カットオフ日付到達: 2021-07-05
+ページ 53 を取得中...
+カットオフ日付到達: 2021-06-21
+ページ 54 を取得中...
+カットオフ日付到達: 2021-05-31
+ページ 55 を取得中...
+カットオフ日付到達: 2021-04-27
+ページ 56 を取得中...
+カットオフ日付到達: 2021-03-29
+ページ 57 を取得中...
+カットオフ日付到達: 2021-02-22
+ページ 58 を取得中...
+カットオフ日付到達: 2021-01-12
+ページ 59 を取得中...
+カットオフ日付到達: 2020-11-22
+ページ 60 を取得中...
+カットオフ日付到達: 2020-10-01
+全ページ取得完了
+取得した動画数: 1
+
+--- センチメント分析開始 ---
+センチメント分析:   0%|          | 0/1 [00:00<?, ?it/s]センチメント分析: 100%|██████████| 1/1 [00:01<00:00,  1.55s/it]センチメント分析: 100%|██████████| 1/1 [00:01<00:00,  1.55s/it]
+
+保存完了: /home/dk/getyoutubedata_poc/data/raw/influencer_sentiment.csv
+データ件数: 1051
+期間: 2023-01-02 〜 2026-01-01
+
+--- センチメント統計 ---
+count    1051.000000
+mean       -0.032572
+std         0.646303
+min        -0.900000
+25%        -0.700000
+50%        -0.200000
+75%         0.700000
+max         0.900000
+Name: Influencer_Sentiment, dtype: float64
+
+=== 処理完了 ===
+Finished collect_sentiment.py successfully.
+Starting create_features.py...
+--- 市場データの読み込み ---
+インフルエンサーセンチメント読み込み完了: 1051日分
+[6857.T] 処理中...
+[6098.T] 処理中...
+[9432.T] 処理中...
+[1366.T] 処理中...
+[6981.T] 処理中...
+[7203.T] 処理中...
+[6954.T] 処理中...
+[6471.T] 処理中...
+[4005.T] 処理中...
+[8766.T] 処理中...
+[7751.T] 処理中...
+[4004.T] 処理中...
+[8802.T] 処理中...
+[8729.T] 処理中...
+[6758.T] 処理中...
+[4568.T] 処理中...
+[4519.T] 処理中...
+[9984.T] 処理中...
+[8316.T] 処理中...
+[7741.T] 処理中...
+[6861.T] 処理中...
+[4661.T] 処理中...
+[8306.T] 処理中...
+[4582.T] 処理中...
+[3382.T] 処理中...
+[6971.T] 処理中...
+[1605.T] 処理中...
+[278A.T] 処理中...
+[8058.T] 処理中...
+[4502.T] 処理中...
+[6526.T] 処理中...
+[285A.T] 処理中...
+[6315.T] 処理中...
+[4452.T] 処理中...
+[4063.T] 処理中...
+[9509.T] 処理中...
+[2914.T] 処理中...
+[8035.T] 処理中...
+[6902.T] 処理中...
+[9501.T] 処理中...
+[6367.T] 処理中...
+[8002.T] 処理中...
+[8707.T] 処理中...
+[9449.T] 処理中...
+[218A.T] 処理中...
+[6330.T] 処理中...
+[6701.T] 処理中...
+[1802.T] 処理中...
+[6506.T] 処理中...
+[7974.T] 処理中...
+[8031.T] 処理中...
+[6501.T] 処理中...
+[1942.T] 処理中...
+[5401.T] 処理中...
+[7012.T] 処理中...
+[7267.T] 処理中...
+[6920.T] 処理中...
+[9983.T] 処理中...
+[8411.T] 処理中...
+[7011.T] 処理中...
+[9101.T] 処理中...
+[6273.T] 処理中...
+
+--- データ結合後 ---
+データ形状: (155647, 58)
+
+--- 高相関特徴量の削除 (閾値: 0.95) ---
+削除する特徴量: ['Low', 'Open', 'Stoch_SlowD', 'BB_Upper', 'BB_Lower']
+
+--- 相関フィルタリング後 ---
+データ形状: (155647, 53)
+
+--- 処理完了 ---
+元データ行数: 155647
+NaN含有行数: 39841
+削除後行数: 155647 (NaNを含む行を削除)
+保存しました: /home/dk/getyoutubedata_poc/data/processed/train_data.csv
+
+--- データセット先頭5行 ---
+        Date      Close       High  ...  Target    Code  Sharpe_20
+0 2015-01-09  305.88492  320.58273  ...     NaN  6857.T        NaN
+1 2015-01-13  294.16928  298.21651  ...     NaN  6857.T        NaN
+2 2015-01-14  284.15771  289.69602  ...     NaN  6857.T        NaN
+3 2015-01-15  289.05692  289.48294  ...     NaN  6857.T        NaN
+4 2015-01-16  284.37067  285.00970  ...     NaN  6857.T        NaN
+
+[5 rows x 53 columns]
+
+--- データセット形状 ---
+(155647, 53)
+Finished create_features.py successfully.
+Starting predict_ranking.py...
+--- データの準備開始 ---
+--- 市場データの読み込み ---
+インフルエンサーセンチメント読み込み完了: 1051日分
+[6857.T] 処理中...
+[6098.T] 処理中...
+[9432.T] 処理中...
+[1366.T] 処理中...
+[6981.T] 処理中...
+[7203.T] 処理中...
+[6954.T] 処理中...
+[6471.T] 処理中...
+[4005.T] 処理中...
+[8766.T] 処理中...
+[7751.T] 処理中...
+[4004.T] 処理中...
+[8802.T] 処理中...
+[8729.T] 処理中...
+[6758.T] 処理中...
+[4568.T] 処理中...
+[4519.T] 処理中...
+[9984.T] 処理中...
+[8316.T] 処理中...
+[7741.T] 処理中...
+[6861.T] 処理中...
+[4661.T] 処理中...
+[8306.T] 処理中...
+[4582.T] 処理中...
+[3382.T] 処理中...
+[6971.T] 処理中...
+[1605.T] 処理中...
+[278A.T] 処理中...
+[8058.T] 処理中...
+[4502.T] 処理中...
+[6526.T] 処理中...
+[285A.T] 処理中...
+[6315.T] 処理中...
+[4452.T] 処理中...
+[4063.T] 処理中...
+[9509.T] 処理中...
+[2914.T] 処理中...
+[8035.T] 処理中...
+[6902.T] 処理中...
+[9501.T] 処理中...
+[6367.T] 処理中...
+[8002.T] 処理中...
+[8707.T] 処理中...
+[9449.T] 処理中...
+[218A.T] 処理中...
+[6330.T] 処理中...
+[6701.T] 処理中...
+[1802.T] 処理中...
+[6506.T] 処理中...
+[7974.T] 処理中...
+[8031.T] 処理中...
+[6501.T] 処理中...
+[1942.T] 処理中...
+[5401.T] 処理中...
+[7012.T] 処理中...
+[7267.T] 処理中...
+[6920.T] 処理中...
+[9983.T] 処理中...
+[8411.T] 処理中...
+[7011.T] 処理中...
+[9101.T] 処理中...
+[6273.T] 処理中...
+--- カラム名のクリーニングを実行 ---
+使用する特徴量: ['High', 'Low', 'Open', 'Volume', 'Momentum_10', 'Momentum_20', 'Stoch_K', 'Stoch_D', 'Stoch_SlowD', 'Volatility_20', 'Volume_Ratio_5', 'Return_60d', 'Return_120d', 'Skewness_60d', 'Kurtosis_60d', 'Corr_N225_60', 'Beta_N225_60', 'Price_Rank_52W', 'Drawdown_52W', 'Is_Month_End', 'Is_Month_Start', 'Day_of_Week', 'MA_Divergence_5', 'MA_Divergence_25', 'MA_Divergence_75', 'RSI_14', 'MACD', 'MACD_Signal', 'MACD_Hist', 'BB_Upper', 'BB_Lower', 'BB_Width', 'BB_Position', 'USDJPY_Change', 'US10Y_Change', 'VIX_Close', 'VIX_Change', 'Is_High_VIX', 'Sector_Electric_Return_5d', 'Sector_Electric_Return_20d', 'Sector_Pharma_Return_5d', 'Sector_Pharma_Return_20d', 'Sector_Comm_Return_5d', 'Sector_Comm_Return_20d', 'Sector_Auto_Return_5d', 'Sector_Auto_Return_20d', 'Sector_Bank_Return_5d', 'Sector_Bank_Return_20d', 'Sector_Steel_Return_5d', 'Sector_Steel_Return_20d', 'Sector_Wholesale_Return_5d', 'Sector_Wholesale_Return_20d', 'Influencer_Sentiment', 'Sharpe_20']
+
+--- データ分割 ---
+学習用データ期間: 2015-01-22 〜 2025-12-02
+学習データ数: 151789
+予測基準日: 2025-12-30
+予測対象銘柄数: 62
+
+確認: 全銘柄のCloseは正常です
+Close列のサンプル: [147.0, 3127.0, 3269.0, 5028.0, 1244.0]
+
+--- 予測用データ確認 ---
+        Code   Close     RSI_14
+2696  1366.T   147.0  53.125000
+2704  1605.T  3127.0  39.386792
+2704  1802.T  3269.0  59.621451
+2704  1942.T  5028.0  62.957075
+344   218A.T  1244.0  52.053140
+Close列のNaN数: 0
+
+--- 時系列交差検証 (5 Folds) ---
+Training until validation scores don't improve for 50 rounds
+Early stopping, best iteration is:
+[1]	training's rmse: 0.0581893	valid_1's rmse: 0.0534677
+Fold 1: Rank IC = -0.1066, RMSE = 0.0535
+Training until validation scores don't improve for 50 rounds
+Early stopping, best iteration is:
+[35]	training's rmse: 0.0552948	valid_1's rmse: 0.0585265
+Fold 2: Rank IC = 0.0327, RMSE = 0.0585
+Training until validation scores don't improve for 50 rounds
+Early stopping, best iteration is:
+[1]	training's rmse: 0.0567786	valid_1's rmse: 0.0625633
+Fold 3: Rank IC = 0.0150, RMSE = 0.0626
+Training until validation scores don't improve for 50 rounds
+Early stopping, best iteration is:
+[44]	training's rmse: 0.0576868	valid_1's rmse: 0.0575771
+Fold 4: Rank IC = 0.0592, RMSE = 0.0576
+Training until validation scores don't improve for 50 rounds
+Early stopping, best iteration is:
+[84]	training's rmse: 0.0572183	valid_1's rmse: 0.065754
+Fold 5: Rank IC = 0.0490, RMSE = 0.0658
+
+=== CV結果集計 ===
+Mean Rank IC: 0.0099
+Std Dev IC: 0.0601
+
+--- 最終モデル学習 (全データ) ---
+Training until validation scores don't improve for 50 rounds
+[100]	training's rmse: 0.0568941	valid_1's rmse: 0.0651842
+Early stopping, best iteration is:
+[68]	training's rmse: 0.0571752	valid_1's rmse: 0.0651704
+
+--- 予測実行 ---
+
+ランキングを保存しました: /home/dk/getyoutubedata_poc/data/output/forecast_20260102.csv
+
+=== 推奨銘柄 TOP 10 ===
+   Rank    Code    Type       Close     Score     RSI_14  MA_Divergence_25
+0     1  4004.T  MyList  6526.00000  0.009697  53.174603          0.035111
+1     2  6971.T  MyList  2196.50000  0.008585  52.747253          0.010108
+2     3  9432.T  Core30   157.70000  0.008541  58.928571          0.012507
+3     4  5401.T  MyList   641.79999  0.008333  59.012330          0.034300
+4     5  4005.T  MyList   445.60001  0.008229  32.049333         -0.024433
+5     6  6471.T  MyList   975.79999  0.008227  51.728807          0.025082
+6     7  8306.T  Core30  2493.00000  0.007265  52.997602          0.005339
+7     8  1802.T  MyList  3269.00000  0.006834  59.621451          0.016265
+8     9  6902.T  Core30  2158.00000  0.006032  66.125290          0.029119
+9    10  4502.T  Core30  4835.00000  0.005835  77.936508          0.054636
+特徴量重要度を保存しました: /home/dk/getyoutubedata_poc/data/output/feature_importance_20260102.png
+
+=== 全処理完了 ===
+Finished predict_ranking.py successfully.
+Starting generate_reports.py...
+Loading forecast data...
+Using latest forecast file: /home/dk/getyoutubedata_poc/data/output/forecast_20260102.csv
+Top 5 Tickers: ['4004.T', '6971.T', '9432.T', '5401.T', '4005.T']
+Processing 4004.T...
+Generating report for Resonac Holdings Corporation (4004.T) with Deepseek AI...
+Saved report for 4004.T to /home/dk/getyoutubedata_poc/data/output/20260102/4004.T_report.json
+Processing 6971.T...
+Generating report for Kyocera Corporation (6971.T) with Deepseek AI...
+Saved report for 6971.T to /home/dk/getyoutubedata_poc/data/output/20260102/6971.T_report.json
+Processing 9432.T...
+Generating report for NTT, Inc. (9432.T) with Deepseek AI...
+Saved report for 9432.T to /home/dk/getyoutubedata_poc/data/output/20260102/9432.T_report.json
+Processing 5401.T...
+Generating report for Nippon Steel Corporation (5401.T) with Deepseek AI...
+Saved report for 5401.T to /home/dk/getyoutubedata_poc/data/output/20260102/5401.T_report.json
+Processing 4005.T...
+Generating report for Sumitomo Chemical Company, Limited (4005.T) with Deepseek AI...
+Saved report for 4005.T to /home/dk/getyoutubedata_poc/data/output/20260102/4005.T_report.json
+All reports generated successfully.
+Finished generate_reports.py successfully.
+Starting forecast_to_db.py...
+2026-01-02 18:13:50,551 [INFO] Reading file: /home/dk/getyoutubedata_poc/data/output/forecast_20260102.csv
+2026-01-02 18:13:50,576 [INFO] No new columns to add for table 'public.forecast_rank'.
+2026-01-02 18:13:50,605 [INFO] Data successfully upserted into 'public'.'forecast_rank' with multi-PK.
+2026-01-02 18:13:50,605 [INFO] Upsert completed successfully.
+Finished forecast_to_db.py successfully.
+=== Daily Run Completed at 2026-01-02 18:13:50 ===
+----------------------------------------
+Starting Git Push Automation...
